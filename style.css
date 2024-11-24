@@ -41,11 +41,8 @@ body {
 
 /* Header */
 header {
-    background: url("1.jpeg") no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+    background: url("1.jpeg") no-repeat fixed;
+    background-size: 100% 90vh;
     color: black;
     text-align: center;
     padding: 40px 0;
