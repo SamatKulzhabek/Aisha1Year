@@ -1,0 +1,205 @@
+/* Основные стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Lobster&display=swap');
+
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .imperial-script-regular {
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+    
+.imperial-script-regular {
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Контейнеры */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: url("1.jpeg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    color: black;
+    text-align: center;
+    padding: 40px 0;
+    height: 90vh;
+}
+
+header h1 {
+    margin-top: 12rem;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-family: "Imperial Script", cursive;
+    color: rgb(223, 89, 89);
+}
+
+header p {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Imperial Script", cursive;
+    color: rgb(223, 89, 89);
+}
+
+/* Таймер */
+#countdown {
+    background-color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#countdown h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+#timer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#timer div {
+    background-color: #e88a8a;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Детали мероприятия */
+#event-details {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#event-details h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    font-family: "Imperial Script", cursive;
+    color: rgb(223, 89, 89);
+}
+
+#event-details p {
+    font-size: 1.2rem;
+    font-family: "Imperial Script", cursive;
+    color: rgb(223, 89, 89);
+    font-weight: bold;
+}
+
+#event-details p.dsa {
+    font-size: 1.2rem;
+    font-family: "Imperial Script", cursive;
+    color: rgb(15, 15, 15);
+    font-weight: bold;
+}
+
+#event-details p span {
+    font-size: 1.2rem;
+    font-family: "Imperial Script", cursive;
+    color: rgb(2, 2, 2);
+    font-weight: bold;
+}
+
+#event-details .sd span{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    color: rgb(2, 2, 2);
+    font-weight: bold;
+}
+/* Карта */
+#map {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+#google-map {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+/* Форма RSVP */
+#rsvp {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+#rsvp h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+#rsvp form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#rsvp label {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    display: block;
+}
+
+#rsvp input, #rsvp select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+}
+
+#rsvp button {
+    width: 100%;
+    padding: 15px;
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#rsvp button:hover {
+    background-color: #ff5c33;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1rem;
+}
